@@ -9,6 +9,23 @@ import NavBar from "./NavBar";
 
 function App() {
     return (
+        <div>
+            <NavBar />
+            <Switch>
+                <Route exact path= "/moviesreview">
+                    <MoviesReview />
+                </Route>
+                <Route exact path= "/showsreview">
+                    <ShowsReview />
+                </Route>
+                <Route exact path= "/videogamereview">
+                    <VideoGameReview />
+                </Route>
+                <Route exact path= "/">
+                    <Home />
+                </Route>
+            </Switch>
+        </div>
         
     )
 }
