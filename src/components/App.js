@@ -7,6 +7,8 @@ import VideoGameReview from "./VideoGameReview";
 import ShowsReview from "./ShowsReview";
 import NavBar from "./NavBar";
 
+import WriteReview from "./WriteReview"
+
 function App() {
     return (
         <div>
@@ -23,6 +25,9 @@ function App() {
                 </Route>
                 <Route exact path= "/">
                     <Home />
+                </Route>
+                <Route exact path= "/writereview">
+                    <WriteReview />
                 </Route>
             </Switch>
         </div>

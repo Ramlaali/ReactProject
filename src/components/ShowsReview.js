@@ -1,5 +1,5 @@
 import React from "react";
-import WriteReview from "./WriteReview";
+
 
 function ShowsReview(){
     return (
