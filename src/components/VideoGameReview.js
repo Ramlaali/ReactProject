@@ -1,5 +1,5 @@
 import React from "react";
-
+import WriteReview from "./WriteReview";
 
 function VideoGameReview(){
     return (

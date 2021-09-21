@@ -1,10 +1,12 @@
 import React from "react";
 
+import WriteReview from "./WriteReview";
+
 
 function MoviesReview(){
     return (
         <div>
-            <h1>Movies Review Page</h1>
+            <h1>Movie Review Page</h1>
         </div>
         );
 }

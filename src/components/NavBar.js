@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 
 const linkStyles = {
-    display : "flex",
+    display : "in-line",
     height : "80px",
     color : "white",
     background : "blue",
@@ -20,15 +20,15 @@ function NavBar() {
             </NavLink>
             <NavLink to= "/moviesreview"
             exact style= {linkStyles}>
-                Movies Review
+                Movie Reviews
             </NavLink>
             <NavLink to= "/showsreview"
             exact style= {linkStyles}>
-                Shows Review
+                Show Reviews
             </NavLink>
-            <NavLink to= "/videogamesreview"
+            <NavLink to= "/videogamereview"
             exact style= {linkStyles}>
-                Video Games Review
+                Video Game Reviews
             </NavLink>
         </div>
         

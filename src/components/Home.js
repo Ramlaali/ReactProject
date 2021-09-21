@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
 
 
 function Home(){
@@ -10,6 +10,6 @@ function Home(){
         );
 };
 
-ReactDOM.render(<Home />, document.getElementById("root"));
+
 
 export default Home;
