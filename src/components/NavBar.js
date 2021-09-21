@@ -30,10 +30,6 @@ function NavBar() {
             exact style= {linkStyles}>
                 Video Game Reviews
             </NavLink>
-            <NavLink to= "/writereview"
-            exact style= {linkStyles}>
-                write review
-            </NavLink>
         </div>
         
     )
