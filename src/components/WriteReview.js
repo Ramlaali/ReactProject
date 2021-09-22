@@ -4,7 +4,7 @@ import db from "../db.json";
 
 
 
-function WriteReview(){
+function WriteReview({parentToChild}) {
     const [review, newReview] = useState('');
 
 
@@ -13,12 +13,13 @@ function WriteReview(){
     }
 
     function handleSubmit(event){
-        console.log(db.movies)
-        //console.log(review)
+        //console.log(db.movies)
+        console.log(review)
     }
     return (
         <div className= "Review">
             <h2>Write a Review</h2>
+            <h2>{parentToChild}</h2>
             <form onSubmit = {handleSubmit}>
                 <input name = "review" id="text" type="text" required value= {review} placeholder="review here" onChange= {handleReview} />
                 <button type= "submit">Submit</button>   
