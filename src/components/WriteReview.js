@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 //import db from "../db.json";
 
-
-
-
 function WriteReview({parentToChild}) {
     const [review, newReview] = useState('');
 
@@ -24,6 +21,7 @@ function WriteReview({parentToChild}) {
             
             <h2>{parentToChild?.name}</h2>
             <img src= {parentToChild?.image} alt= "" width= "250px" height= "300px"></img>
+            <h3>"{parentToChild?.review}"</h3>
             <h5>{parentToChild?.rating}</h5>
 
 

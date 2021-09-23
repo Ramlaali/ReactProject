@@ -1,13 +1,25 @@
-import React from "react";
 import WriteReview from "./WriteReview";
-
-
+import React, { useState } from "react";
+import db from "../db.json";
 
 function ShowsReview(){
+    
+    let [show, setShowID] = useState("");
+
+    let handleShowChange = (e) => {
+        setShowID(e.target.value)
+        console.log(e.target.value);
+    }
+
     return (
         <div>
             <h1>Shows Review Page</h1>
-            <WriteReview/>
+
+            <select onChange= {handleShowChange}>
+                <option value= "select show" > Select a Show  </option>
+                {db.shows.map((show) => ( <option value={show.id} key= {show.id}> {show.name} </option>))} 
+            </select>
+            <WriteReview parentToChild={db.shows.find(m => m.id === parseInt (show) ) }/>
         </div>
         );
 }

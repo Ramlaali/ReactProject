@@ -1,12 +1,25 @@
-import React from "react";
 import WriteReview from "./WriteReview";
-
+import React, { useState } from "react";
+import db from "../db.json";
 
 function VideoGameReview(){
+    
+    let [videogame, setVGID] = useState("");
+
+    let handleVGChange = (e) => {
+        setVGID(e.target.value)
+        console.log(e.target.value);
+    }
+
     return (
         <div>
             <h1>Video Game Review Page</h1>
-            <WriteReview/>
+
+            <select onChange= {handleVGChange}>
+                <option value="select videgame" > Select a Video Game  </option>
+                {db.videogames.map((videogame) => ( <option value={videogame.id} key= {videogame.id}> {videogame.name} </option>))} 
+            </select>
+            <WriteReview parentToChild={db.videogames.find(v => v.id === parseInt (videogame) ) }/>
         </div>
         );
 }

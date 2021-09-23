@@ -1,7 +1,7 @@
 
 
 {
-    "animes": [
+    "shows": [
       {
           "id": 1,
           "name" : "Naruto Shippuden",
@@ -12,14 +12,14 @@
       {
             "id": 2,
             "name" : "Attack on Titan" ,
-            "image": "https://static.wikia.nocookie.net/shingekinokyojin/images/3/3e/Attack_on_Titan_Part_2-_Wings_of_Freedom_-_Main_visual_poster.jpg/revision/latest?cb=20200925192453",
+            "image": "https://flxt.tmsimg.com/assets/p10701949_b_v8_ah.jpg",
             "review": "Easily one of the greatest productions to ever come out, pure perfection, no plot holes or character flaws. A true Crown Jewel if you will.",
             "rating": "5 star "
         },
         {
             "id": 3,
             "name" : "Haikyuu!!" ,
-            "image": "https://static.wikia.nocookie.net/haikyuu/images/a/a4/Haikyu_S4.jpg/revision/latest?cb=20200111012854",
+            "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
             "review": "Very wholesome, cute and adorable. Never thought I'd get into a sports anime but it was nice, makes me want to play volleyball.",
             "rating": "4 star"
         },
@@ -33,7 +33,7 @@
         {
             "id": 5,
             "name" : "Jujutsu Kaisen",
-            "image": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/8/88/Anime_Key_Visual_2.png/revision/latest?cb=20201212034001",
+            "image": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg",
             "review": "Loveeee this anime!! It has been a while since I watched an anime that gave me the same vibes as Naruto! I mean an active kid with a demon inside of him and is being hunted by everyone, whose teacher has grey hair, a mask, and is one of the strongest of all time. Immaculate fight scenes I would give it a 10/5 if I could! ",
             "rating": "5 star "
         },
@@ -119,7 +119,7 @@
         {
             "id": 4,
             "name" : "Mobile Suit Gundam Extreme Vs. Maxiboost ON",
-            "image": "https://static.wikia.nocookie.net/gamingdatabase/images/4/46/Mobile-Suit-Gundam-Extreme-VS.-Maxiboost-ON-1-scaled.jpg/revision/latest?cb=20200216214149",
+            "image": "https://images.pushsquare.com/23d8b0876aa09/mobile-suit-gundam-extreme-vs-maxiboost-on-cover.cover_large.jpg",
             "review": "The battle mechanics at the heart of this mech brawler feel like a natural evolution of SEGA’s Virtual-On games, plus its wealth of single and multiplayer content makes it much more valuable than your average anime arena fighter.",
             "rating": "5 star "
         },
@@ -133,7 +133,7 @@
         {
             "id": 6,
             "name" : "Fairy Tail",
-            "image": "https://static.wikia.nocookie.net/fairytail/images/c/c5/FairyTail_rpg.png/revision/latest?cb=20200508150847",
+            "image": "https://m.media-amazon.com/images/I/71jfDHt9GPL._SL1000_.jpg",
             "review": "There’s a satisfying amount of characters to bring into your stable, a unique battle system, catchy music, and side missions galore.",
             "rating": "3 star"
         }
