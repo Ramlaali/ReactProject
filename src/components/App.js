@@ -6,13 +6,15 @@ import MoviesReview from "./MoviesReview";
 import VideoGameReview from "./VideoGameReview";
 import ShowsReview from "./ShowsReview";
 import NavBar from "./NavBar";
+import "../style.css"
+
 
 
 
 function App() {
     return (
-        <div>
-            <NavBar />
+        <div className= "App">
+            <NavBar/>
             <Switch>
                 <Route exact path= "/moviesreview">
                     <MoviesReview />

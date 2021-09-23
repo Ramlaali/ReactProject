@@ -8,27 +8,29 @@ import db from "../db.json";
 
 function MoviesReview(){
     
-    let [movie, setMovieName] = useState("select a movie name");
+    let [movie, setMovieID] = useState("");
 
     let handleMovieChange = (e) => {
-        setMovieName(e.target.value)
-        parentToChild(e.target.value); 
-        console.log(e.target.value)
+        setMovieID(e.target.value)
+        //parentToChild(e.target.value); 
+        console.log(e.target.value);
     }
    
-    const parentToChild = (selectedMovieName) => {
-        //setMovieName();
-    }
+    
 
     return (
         <div>
             <h1>Movie Review Page</h1>
 
             <select onChange= {handleMovieChange}>
-                <option value="Select a Movie" > </option>
-                {db.movies.map((movie) => ( <option value={movie.moviename} key= {movie.id}> {movie.moviename} </option>))} 
+                <option value="select movie" > Select a Movie Name </option>
+                {db.movies.map((movie) => ( <option value={movie.id} key= {movie.id}> {movie.name} </option>))} 
             </select>
-            <WriteReview parentToChild={movie}/>
+            <WriteReview parentToChild={db.movies.find(m => m.id === parseInt (movie) ) }/>
+            {/* <h2>{movie.name}</h2>
+            <p>{movie.image}</p>
+            <p>{movie.review}</p>
+            <p>{movie.rating}</p> */}
         </div>
         );
 }
