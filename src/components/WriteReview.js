@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import db from "../db.json";
 
 function WriteReview({parentToChild}) {
-    const [writeReview, newReview, submittedReview] = useState('');
-
+    let [writeReview, newReview] = useState('');
+    let [submittedReview, setReview] = useState('');
 
     function handleReview(event){
         newReview(event.target.value)
@@ -17,13 +17,20 @@ function WriteReview({parentToChild}) {
 
         if(parentToChild.id > 7 && parentToChild.id < 12) {
 
-            let newMovie = {'id': 13, 'name': parentToChild?.name, 'review':writeReview, 'rating': parentToChild?.rating}
+            let newMovie = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':writeReview, 'rating': parentToChild?.rating}
         db.movies.push( newMovie)
         }
-      
-        submittedReview = writeReview; 
+
+        if(parentToChild.id > 13 && parentToChild.id < 18) {
+
+            let newVG = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':writeReview, 'rating': parentToChild?.rating}
+        db.videogames.push( newVG)
+        }
+
         document.getElementById("review-form").reset();
 
+            setReview(writeReview); 
+            console.log('submittedReview', submittedReview)
         console.log("db", db);
     }
    //console.log(parentToChild)
@@ -62,16 +69,6 @@ function WriteReview({parentToChild}) {
                 <textarea input="true" name = "review" id= "text" required value= {writeReview} placeholder = "What are your thoughts? Leave a Review" onChange= {handleReview} style= {reviewStyle}/>
                 <button type= "submit" >Submit</button>   
             </form>
-       
-        
-            <table>
-                {/* {db.movies.map((movie => 
-                    <tr key={movie}> {movie.review}</tr>))} */}
-                    <thead>
-
-                    <tr>{submittedReview}</tr>
-                    </thead>
-            </table>
         </div>
         );
 };
