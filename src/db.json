@@ -50,42 +50,42 @@
 
     "movies": [
         {
-            "id": 1,
+            "id": 7,
             "name" : "Your Name",
             "image": "https://i.pinimg.com/550x/6d/0c/b5/6d0cb547c27315535ddd8c8fa5644bed.jpg",
             "review": "From the visual art to the story plot, it very aesthetically pleasing and made me a little emotional.",
             "rating": "4 star"
         },
         {
-            "id": 2,
+            "id": 8,
             "name" : "Howl's Moving Castle",
             "image": "https://i.pinimg.com/originals/c8/0f/20/c80f207a34eb1862c2c6478dfb4ec3d7.jpg",
             "review": "Studio Ghibli never misses! This was one of my absolute favorite movies and a staple in my DVD collection.",
             "rating": "5 star "
         },
         {
-            "id": 3,
+            "id": 9,
             "name" : "Wolf Children",
             "image": "https://d3tvwjfge35btc.cloudfront.net/Assets/82/884/L_p0025188482.jpg",
             "review": "Within the first few minutes it was already emotional, the changes the characters went through to find their true selves was so beautiful to watch.",
             "rating": "4 star"
         },
         {
-            "id": 4,
+            "id": 10,
             "name" : "Cowboy Bebop: The Movie",
             "image": "https://m.media-amazon.com/images/M/MV5BNGNlNjBkODEtZThlOC00YzUxLWI0MjMtMjk3YzJmMDFlNWZlXkEyXkFqcGdeQXVyNjI0MDg2NzE@._V1_.jpg",
             "review": "If you love the classic show you will love the movie!",
             "rating": "5 star "
         },
         {
-            "id": 5,
+            "id": 11,
             "name" : "Hunter X Hunter: Phantom Rouge",
             "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg" ,
             "review":"It was ok, the show is so much better but this was just ok. Wish the creator would finish the manga or sell it to someone else to finish it *sigh*" ,
             "rating": "3 star" 
         },
         {
-            "id": 6,
+            "id": 12,
             "name" :"Spirited Away" ,
             "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
             "review": "If you have never watched Spirited Away you are either lying or missing out! It is one of the best!!!!!",
@@ -96,42 +96,42 @@
 
     "videogames": [
         {
-            "id": 1,
+            "id": 13,
             "name" : "Dragon Ball FighterZ" ,
             "image": "https://s3.gaming-cdn.com/images/products/2141/orig/game-steam-dragon-ball-fighterz-cover.jpg" ,
             "review": "Finishing off a foe by kicking them right into a mountain evokes memories of the anime’s most epic clashes.",
             "rating": "4 star"
         },
         {
-            "id": 2,
+            "id": 14,
             "name" : "Naruto Shippuden: Ultimate Ninja Storm 4 – Road to Boruto",
             "image": "https://cdn-prod.scalefast.com/public/assets/user/2072312/image/0267bd07bfa9c70b567f8d48b93d74f7.jpg",
             "review": "Ultimate Ninja Storm 4 brought back the beloved Ultimate Jutsu and Awakenings battle mechanics, plus it increased the game’s already high fun factor with the ability to switch between characters mid-battle. ",
             "rating": "3 star"
         },
         {
-            "id": 3,
+            "id": 15,
             "name" : ".hack//G.U. Last Recode",
             "image": "https://image.api.playstation.com/cdn/UP0700/CUSA10721_00/wI2a9118ln1qK8Bzim9OlXW4fsVQJU4g.png",
             "review": "The crisp anime visuals got even crispier, the battle mechanics/game pacing were thankfully enhanced.",
             "rating": "4 star "
         },
         {
-            "id": 4,
+            "id": 16,
             "name" : "Mobile Suit Gundam Extreme Vs. Maxiboost ON",
             "image": "https://images.pushsquare.com/23d8b0876aa09/mobile-suit-gundam-extreme-vs-maxiboost-on-cover.cover_large.jpg",
             "review": "The battle mechanics at the heart of this mech brawler feel like a natural evolution of SEGA’s Virtual-On games, plus its wealth of single and multiplayer content makes it much more valuable than your average anime arena fighter.",
             "rating": "5 star "
         },
         {
-            "id": 5,
+            "id": 17,
             "name" : "Granblue Fantasy: Versus",
             "image": "https://image.api.playstation.com/vulcan/img/cfn/11307adTJxU9Ee4lS2bqGgUr6cpbdabK5BbpRcXZmEx9DkfgrYmt3mkeKe1ZMKMhobTXnBjTWkn8aruNBvSzaeO2w-4CQxpn.png",
             "review": "Versus is easy on the eyes and easy to play, but its complexities will surprise you and keep you playing it for longer than expected.",
             "rating": "4 star"
         },
         {
-            "id": 6,
+            "id": 18,
             "name" : "Fairy Tail",
             "image": "https://m.media-amazon.com/images/I/71jfDHt9GPL._SL1000_.jpg",
             "review": "There’s a satisfying amount of characters to bring into your stable, a unique battle system, catchy music, and side missions galore.",

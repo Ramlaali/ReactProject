@@ -16,7 +16,7 @@ function App() {
         <div className= "App"
         
           >
-            <NavBar/>
+            <NavBar />
             <Switch>
                 <Route exact path= "/moviesreview">
                     <MoviesReview />

@@ -1,16 +1,17 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const linkStyles = {
     display : "in-line",
-    color : "white",
-    background : "black",
+    color : "black",
     padding : "10px",
+    font: "sans-serif",
     fontSize : "25px",
     boxSizing : "border-box",
-    overflow : "hidden",
-    textdecoration : "none",
 };
+
+
 
 
 function NavBar() {

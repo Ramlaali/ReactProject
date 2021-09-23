@@ -3,6 +3,8 @@ import WriteReview from "./WriteReview";
 import React, { useState } from "react";
 import db from "../db.json";
 
+
+
 function MoviesReview(){
     
     let [movie, setMovieID] = useState("");
