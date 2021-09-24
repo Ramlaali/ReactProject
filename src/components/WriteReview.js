@@ -18,19 +18,23 @@ function WriteReview({parentToChild}) {
 
             let newShow = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':writeReview}
         db.shows.push(newShow)
-        };
+        }
 
-        if(parentToChild.id > 7 && parentToChild.id < 12) {
+        else if(parentToChild.id > 7 && parentToChild.id < 12) {
 
             let newMovie = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':writeReview}
         db.movies.push( newMovie)
-        };
+        }
 
-        if(parentToChild.id > 13 && parentToChild.id < 18) {
+        else if(parentToChild.id > 13 && parentToChild.id < 18) {
 
             let newVG = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':writeReview}
         db.videogames.push( newVG)
-        };
+        }
+        else {
+            alert("Please select an option before writing a review!");
+            
+        }
 
         document.getElementById("review-form").reset();
             setReview(writeReview); 
@@ -50,12 +54,12 @@ function WriteReview({parentToChild}) {
     return (
         <div className= "Review">
             
-            <h2>{parentToChild?.name}</h2>
+            <h3>{parentToChild?.name}</h3>
             <img src= {parentToChild?.image} alt= "" width= "250px" height= "300px"></img>
-            <h3>"{parentToChild?.review}"</h3>
+            <h4>"{parentToChild?.review}"</h4>
             <h3>"{submittedReview}"</h3>
 
-            <h2>Write a Review</h2>
+            <h5>Write a Review</h5>
             <form onSubmit = {handleSubmit} id="review-form">
                 <textarea input="true" name = "review" id= "text" required value= {writeReview} placeholder = "What are your thoughts? Leave a Review" onChange= {handleReview} style= {reviewStyle}/>
                 <button class="btn btn-primary" type="submit">Post</button> 
