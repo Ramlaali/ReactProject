@@ -15,7 +15,7 @@ function VideoGameReview(){
         <div>
             <h1>Video Game Review Page</h1>
 
-            <select onChange= {handleVGChange}>
+            <select onChange= {handleVGChange} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <option value="select videgame" > Select a Video Game  </option>
                 {db.videogames.map((videogame) => ( <option value={videogame.id} key= {videogame.id}> {videogame.name} </option>))} 
             </select>

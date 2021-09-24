@@ -15,7 +15,7 @@ function ShowsReview(){
         <div>
             <h1>Shows Review Page</h1>
 
-            <select onChange= {handleShowChange}>
+            <select onChange= {handleShowChange} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <option value= "select show" > Select a Show  </option>
                 {db.shows.map((show) => ( <option value={show.id} key= {show.id}> {show.name} </option>))} 
             </select>
