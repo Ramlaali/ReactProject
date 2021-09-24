@@ -1,39 +1,30 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-const linkStyles = {
-    display : "in-line",
-    color : "black",
-    padding : "10px",
-    font: "sans-serif",
-    fontSize : "25px",
-    boxSizing : "border-box",
-};
-
-
-
 
 function NavBar() {
     return (
-        <div className= "NavBar">
-            <NavLink to= "/"
-            exact style= {linkStyles}>
-                Home
-            </NavLink>
-            <NavLink to= "/moviesreview"
-            exact style= {linkStyles}>
-                Movie Reviews
-            </NavLink>
-            <NavLink to= "/showsreview"
-            exact style= {linkStyles}>
-                Show Reviews
-            </NavLink>
-            <NavLink to= "/videogamereview"
-            exact style= {linkStyles}>
-                Video Game Reviews
-            </NavLink>
-        </div>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/moviesreview">Movie Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/showsreview">Show Review</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/videogamereview">Video Game Review</a>
+      </li>
+    </ul>
+  </div>
+</nav>
         
     )
 }
