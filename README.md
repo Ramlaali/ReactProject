@@ -1,9 +1,11 @@
 # Weeb Review : Phase 2 Project
+This website is Review page for Anime based shows, movies, and videogames. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This website is Review page for Anime based shows, movies, and videogames.
+
 
 To install: 
 Clone down and run npm install
