@@ -1,0 +1,268 @@
+{
+  "shows": [
+    {
+      "id": 1,
+      "name": "Naruto Shippuden",
+      "image": "https://www.anime-planet.com/images/anime/covers/1131.jpg?t=1579136379",
+      "review": "Literally the best anime ever! Can you truly call yourself a weeb if you have never watched Naruto?!! "
+    },
+    {
+      "id": 2,
+      "name": "Attack on Titan",
+      "image": "https://flxt.tmsimg.com/assets/p10701949_b_v8_ah.jpg",
+      "review": "Easily one of the greatest productions to ever come out, pure perfection, no plot holes or character flaws. A true Crown Jewel if you will."
+    },
+    {
+      "id": 3,
+      "name": "Haikyuu!!",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
+      "review": "Very wholesome, cute and adorable. Never thought I'd get into a sports anime but it was nice, makes me want to play volleyball."
+    },
+    {
+      "id": 4,
+      "name": "My Hero Academia",
+      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
+      "review": "The show is nice or whatever but the fanbase scares me, giving it a 2/5 because of that lol"
+    },
+    {
+      "id": 5,
+      "name": "Jujutsu Kaisen",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg",
+      "review": "Loveeee this anime!! It has been a while since I watched an anime that gave me the same vibes as Naruto! I mean an active kid with a demon inside of him and is being hunted by everyone, whose teacher has grey hair, a mask, and is one of the strongest of all time. Immaculate fight scenes I would give it a 10/5 if I could! "
+    },
+    {
+      "id": 6,
+      "name": "Demon Slayer",
+      "image": "https://i1.sndcdn.com/artworks-000640100413-69mq2s-t500x500.jpg",
+      "review": "A determined brother that would do anything to protect his sister, misunderstood demons and a whole lotta slaying. If you love animes with a lot more tradtional sword fighting this is the one for you. "
+    },
+    [
+      {
+        "id": 1,
+        "name": "Naruto Shippuden",
+        "image": "https://www.anime-planet.com/images/anime/covers/1131.jpg?t=1579136379",
+        "review": "Literally the best anime ever! Can you truly call yourself a weeb if you have never watched Naruto?!! "
+      },
+      {
+        "id": 2,
+        "name": "Attack on Titan",
+        "image": "https://flxt.tmsimg.com/assets/p10701949_b_v8_ah.jpg",
+        "review": "Easily one of the greatest productions to ever come out, pure perfection, no plot holes or character flaws. A true Crown Jewel if you will."
+      },
+      {
+        "id": 3,
+        "name": "Haikyuu!!",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
+        "review": "Very wholesome, cute and adorable. Never thought I'd get into a sports anime but it was nice, makes me want to play volleyball."
+      },
+      {
+        "id": 4,
+        "name": "My Hero Academia",
+        "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
+        "review": "The show is nice or whatever but the fanbase scares me, giving it a 2/5 because of that lol"
+      },
+      {
+        "id": 5,
+        "name": "Jujutsu Kaisen",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg",
+        "review": "Loveeee this anime!! It has been a while since I watched an anime that gave me the same vibes as Naruto! I mean an active kid with a demon inside of him and is being hunted by everyone, whose teacher has grey hair, a mask, and is one of the strongest of all time. Immaculate fight scenes I would give it a 10/5 if I could! "
+      },
+      {
+        "id": 6,
+        "name": "Demon Slayer",
+        "image": "https://i1.sndcdn.com/artworks-000640100413-69mq2s-t500x500.jpg",
+        "review": "A determined brother that would do anything to protect his sister, misunderstood demons and a whole lotta slaying. If you love animes with a lot more tradtional sword fighting this is the one for you. "
+      }
+    ]
+  ],
+  "movies": [
+    {
+      "id": 7,
+      "name": "Your Name",
+      "image": "https://i.pinimg.com/550x/6d/0c/b5/6d0cb547c27315535ddd8c8fa5644bed.jpg",
+      "review": "From the visual art to the story plot, it very aesthetically pleasing and made me a little emotional."
+    },
+    {
+      "id": 8,
+      "name": "Howl's Moving Castle",
+      "image": "https://i.pinimg.com/originals/c8/0f/20/c80f207a34eb1862c2c6478dfb4ec3d7.jpg",
+      "review": "Studio Ghibli never misses! This was one of my absolute favorite movies and a staple in my DVD collection."
+    },
+    {
+      "id": 9,
+      "name": "Wolf Children",
+      "image": "https://d3tvwjfge35btc.cloudfront.net/Assets/82/884/L_p0025188482.jpg",
+      "review": "Within the first few minutes it was already emotional, the changes the characters went through to find their true selves was so beautiful to watch."
+    },
+    {
+      "id": 10,
+      "name": "Cowboy Bebop: The Movie",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGNlNjBkODEtZThlOC00YzUxLWI0MjMtMjk3YzJmMDFlNWZlXkEyXkFqcGdeQXVyNjI0MDg2NzE@._V1_.jpg",
+      "review": "If you love the classic show you will love the movie!"
+    },
+    {
+      "id": 11,
+      "name": "Hunter X Hunter: Phantom Rouge",
+      "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg",
+      "review": "It was ok, the show is so much better but this was just ok. Wish the creator would finish the manga or sell it to someone else to finish it *sigh*"
+    },
+    {
+      "id": 12,
+      "name": "Spirited Away",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "review": "If you have never watched Spirited Away you are either lying or missing out! It is one of the best!!!!!"
+    },
+    [
+      {
+        "id": 1,
+        "name": "Naruto Shippuden",
+        "image": "https://www.anime-planet.com/images/anime/covers/1131.jpg?t=1579136379",
+        "review": "Literally the best anime ever! Can you truly call yourself a weeb if you have never watched Naruto?!! "
+      },
+      {
+        "id": 2,
+        "name": "Attack on Titan",
+        "image": "https://flxt.tmsimg.com/assets/p10701949_b_v8_ah.jpg",
+        "review": "Easily one of the greatest productions to ever come out, pure perfection, no plot holes or character flaws. A true Crown Jewel if you will."
+      },
+      {
+        "id": 3,
+        "name": "Haikyuu!!",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
+        "review": "Very wholesome, cute and adorable. Never thought I'd get into a sports anime but it was nice, makes me want to play volleyball."
+      },
+      {
+        "id": 4,
+        "name": "My Hero Academia",
+        "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
+        "review": "The show is nice or whatever but the fanbase scares me, giving it a 2/5 because of that lol"
+      },
+      {
+        "id": 5,
+        "name": "Jujutsu Kaisen",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg",
+        "review": "Loveeee this anime!! It has been a while since I watched an anime that gave me the same vibes as Naruto! I mean an active kid with a demon inside of him and is being hunted by everyone, whose teacher has grey hair, a mask, and is one of the strongest of all time. Immaculate fight scenes I would give it a 10/5 if I could! "
+      },
+      {
+        "id": 6,
+        "name": "Demon Slayer",
+        "image": "https://i1.sndcdn.com/artworks-000640100413-69mq2s-t500x500.jpg",
+        "review": "A determined brother that would do anything to protect his sister, misunderstood demons and a whole lotta slaying. If you love animes with a lot more tradtional sword fighting this is the one for you. "
+      }
+    ],
+    [
+      {
+        "id": 7,
+        "name": "Your Name",
+        "image": "https://i.pinimg.com/550x/6d/0c/b5/6d0cb547c27315535ddd8c8fa5644bed.jpg",
+        "review": "From the visual art to the story plot, it very aesthetically pleasing and made me a little emotional."
+      },
+      {
+        "id": 8,
+        "name": "Howl's Moving Castle",
+        "image": "https://i.pinimg.com/originals/c8/0f/20/c80f207a34eb1862c2c6478dfb4ec3d7.jpg",
+        "review": "Studio Ghibli never misses! This was one of my absolute favorite movies and a staple in my DVD collection."
+      },
+      {
+        "id": 9,
+        "name": "Wolf Children",
+        "image": "https://d3tvwjfge35btc.cloudfront.net/Assets/82/884/L_p0025188482.jpg",
+        "review": "Within the first few minutes it was already emotional, the changes the characters went through to find their true selves was so beautiful to watch."
+      },
+      {
+        "id": 10,
+        "name": "Cowboy Bebop: The Movie",
+        "image": "https://m.media-amazon.com/images/M/MV5BNGNlNjBkODEtZThlOC00YzUxLWI0MjMtMjk3YzJmMDFlNWZlXkEyXkFqcGdeQXVyNjI0MDg2NzE@._V1_.jpg",
+        "review": "If you love the classic show you will love the movie!"
+      },
+      {
+        "id": 11,
+        "name": "Hunter X Hunter: Phantom Rouge",
+        "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg",
+        "review": "It was ok, the show is so much better but this was just ok. Wish the creator would finish the manga or sell it to someone else to finish it *sigh*"
+      },
+      {
+        "id": 12,
+        "name": "Spirited Away",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+        "review": "If you have never watched Spirited Away you are either lying or missing out! It is one of the best!!!!!"
+      }
+    ]
+  ],
+  "videogames": [
+    {
+      "id": 13,
+      "name": "Dragon Ball FighterZ",
+      "image": "https://s3.gaming-cdn.com/images/products/2141/orig/game-steam-dragon-ball-fighterz-cover.jpg",
+      "review": "Finishing off a foe by kicking them right into a mountain evokes memories of the anime’s most epic clashes."
+    },
+    {
+      "id": 14,
+      "name": "Naruto Shippuden: Ultimate Ninja Storm 4 – Road to Boruto",
+      "image": "https://cdn-prod.scalefast.com/public/assets/user/2072312/image/0267bd07bfa9c70b567f8d48b93d74f7.jpg",
+      "review": "Ultimate Ninja Storm 4 brought back the beloved Ultimate Jutsu and Awakenings battle mechanics, plus it increased the game’s already high fun factor with the ability to switch between characters mid-battle. "
+    },
+    {
+      "id": 15,
+      "name": ".hack//G.U. Last Recode",
+      "image": "https://image.api.playstation.com/cdn/UP0700/CUSA10721_00/wI2a9118ln1qK8Bzim9OlXW4fsVQJU4g.png",
+      "review": "The crisp anime visuals got even crispier, the battle mechanics/game pacing were thankfully enhanced."
+    },
+    {
+      "id": 16,
+      "name": "Mobile Suit Gundam Extreme Vs. Maxiboost ON",
+      "image": "https://images.pushsquare.com/23d8b0876aa09/mobile-suit-gundam-extreme-vs-maxiboost-on-cover.cover_large.jpg",
+      "review": "The battle mechanics at the heart of this mech brawler feel like a natural evolution of SEGA’s Virtual-On games, plus its wealth of single and multiplayer content makes it much more valuable than your average anime arena fighter."
+    },
+    {
+      "id": 17,
+      "name": "Granblue Fantasy: Versus",
+      "image": "https://image.api.playstation.com/vulcan/img/cfn/11307adTJxU9Ee4lS2bqGgUr6cpbdabK5BbpRcXZmEx9DkfgrYmt3mkeKe1ZMKMhobTXnBjTWkn8aruNBvSzaeO2w-4CQxpn.png",
+      "review": "Versus is easy on the eyes and easy to play, but its complexities will surprise you and keep you playing it for longer than expected."
+    },
+    {
+      "id": 18,
+      "name": "Fairy Tail",
+      "image": "https://m.media-amazon.com/images/I/71jfDHt9GPL._SL1000_.jpg",
+      "review": "There’s a satisfying amount of characters to bring into your stable, a unique battle system, catchy music, and side missions galore."
+    },
+    [
+      {
+        "id": 13,
+        "name": "Dragon Ball FighterZ",
+        "image": "https://s3.gaming-cdn.com/images/products/2141/orig/game-steam-dragon-ball-fighterz-cover.jpg",
+        "review": "Finishing off a foe by kicking them right into a mountain evokes memories of the anime’s most epic clashes."
+      },
+      {
+        "id": 14,
+        "name": "Naruto Shippuden: Ultimate Ninja Storm 4 – Road to Boruto",
+        "image": "https://cdn-prod.scalefast.com/public/assets/user/2072312/image/0267bd07bfa9c70b567f8d48b93d74f7.jpg",
+        "review": "Ultimate Ninja Storm 4 brought back the beloved Ultimate Jutsu and Awakenings battle mechanics, plus it increased the game’s already high fun factor with the ability to switch between characters mid-battle. "
+      },
+      {
+        "id": 15,
+        "name": ".hack//G.U. Last Recode",
+        "image": "https://image.api.playstation.com/cdn/UP0700/CUSA10721_00/wI2a9118ln1qK8Bzim9OlXW4fsVQJU4g.png",
+        "review": "The crisp anime visuals got even crispier, the battle mechanics/game pacing were thankfully enhanced."
+      },
+      {
+        "id": 16,
+        "name": "Mobile Suit Gundam Extreme Vs. Maxiboost ON",
+        "image": "https://images.pushsquare.com/23d8b0876aa09/mobile-suit-gundam-extreme-vs-maxiboost-on-cover.cover_large.jpg",
+        "review": "The battle mechanics at the heart of this mech brawler feel like a natural evolution of SEGA’s Virtual-On games, plus its wealth of single and multiplayer content makes it much more valuable than your average anime arena fighter."
+      },
+      {
+        "id": 17,
+        "name": "Granblue Fantasy: Versus",
+        "image": "https://image.api.playstation.com/vulcan/img/cfn/11307adTJxU9Ee4lS2bqGgUr6cpbdabK5BbpRcXZmEx9DkfgrYmt3mkeKe1ZMKMhobTXnBjTWkn8aruNBvSzaeO2w-4CQxpn.png",
+        "review": "Versus is easy on the eyes and easy to play, but its complexities will surprise you and keep you playing it for longer than expected."
+      },
+      {
+        "id": 18,
+        "name": "Fairy Tail",
+        "image": "https://m.media-amazon.com/images/I/71jfDHt9GPL._SL1000_.jpg",
+        "review": "There’s a satisfying amount of characters to bring into your stable, a unique battle system, catchy music, and side missions galore."
+      }
+    ]
+  ]
+}
