@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+
 //import db from "../db.json";
 
-function WriteReview({parentToChild, movies}) {
+function WriteReview({parentToChild, movies, setMovies}) {
     let [input, setInput] = useState('');
     let [submittedReview, setSubmittedReview] = useState('');
+    
 
     
     function handleReview(event){
@@ -14,7 +16,19 @@ function WriteReview({parentToChild, movies}) {
 
     function handleSubmit(event){ 
 
+
         event.preventDefault(); 
+
+        fetch("http://localhost:4000/movies", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({'name': parentToChild?.name, 'review':input, "image": parentToChild?.image}),
+          })
+          .then((movies) => movies.json())
+          
+          .then ((movie) => {setMovies([...movies, movie])} );
 
         // if(parentToChild.id > 1 && parentToChild.id < 6) {
 
@@ -22,11 +36,11 @@ function WriteReview({parentToChild, movies}) {
         // db.shows.push(newShow)
         // }
 
-        if(parentToChild.id > 7 && parentToChild.id < 12) {
+        // if(parentToChild.id > 7 && parentToChild.id < 12) {
 
-            let newMovie = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':input}
-        movies.push( newMovie)
-        }
+        //     let newMovie = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':input}
+        // movies.push( newMovie)
+        // }
 
         // if(parentToChild.id > 13 && parentToChild.id < 18) {
 

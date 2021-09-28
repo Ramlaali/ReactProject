@@ -3,8 +3,6 @@ import WriteReview from "./WriteReview";
 import React, { useState, useEffect } from "react";
 
 
-
-
 function MoviesReview(){
     
     let [movies, setMovies] = useState([]);
@@ -15,14 +13,15 @@ function MoviesReview(){
         .then ((response) => response.json())
         .then((data) => {
             setMovies(data)
-        })
-    })
+        });
+
+    }, []);   // use an empty dependencies array, so we only run the fetch request ONCE
 
     let handleMovieChange = (e) => {
         setSelectedMovie(e.target.value)
         console.log(e.target.value);
     }
-
+console.log(movies)
     return (
         <div>
             <h1>Movie Review Page</h1>
@@ -31,7 +30,8 @@ function MoviesReview(){
                 <option value="select movie" > Select a Movie  </option>
                 {movies.map((movie) => ( <option  value={movie.id} key= {movie.id}> {movie.name}  </option>))} 
             </select>
-            <WriteReview movies = {movies} parentToChild={movies.find(m => m.id === parseInt (selectedMovie) ) }/>
+            
+            <WriteReview movies = {movies} setMovies = {setMovies} parentToChild={movies.find(m => m.id === parseInt (selectedMovie) ) }/>
         </div>
         );
 }
