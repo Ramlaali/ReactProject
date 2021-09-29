@@ -1,5 +1,5 @@
 
-import WriteReview from "./WriteReview";
+import WriteVideoGamesReview from "./WriteVideoGamesReview";
 import React, { useState, useEffect } from "react";
 
 
@@ -30,7 +30,7 @@ function VideoGameReview(){
                 {videogames.map((game) => ( <option  value={game.id} key= {game.id}> {game.name}  </option>))} 
             </select>
             
-            <WriteReview videogames = {videogames} setVideoGames = {setVideoGames} parentToChild={videogames.find(vg => vg.id === parseInt (selectedVG) ) }/>
+            <WriteVideoGamesReview videogames = {videogames} setVideoGames = {setVideoGames} parentToChild={videogames.find(vg => vg.id === parseInt (selectedVG) ) }/>
         </div>
         );
 }

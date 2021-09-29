@@ -35,6 +35,12 @@
       "name": "Demon Slayer",
       "image": "https://i1.sndcdn.com/artworks-000640100413-69mq2s-t500x500.jpg",
       "review": "A determined brother that would do anything to protect his sister, misunderstood demons and a whole lotta slaying. If you love animes with a lot more tradtional sword fighting this is the one for you. "
+    },
+    {
+      "name": "My Hero Academia",
+      "review": "dknekf",
+      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
+      "id": 7
     }
   ],
   "movies": [
@@ -73,6 +79,12 @@
       "name": "Spirited Away",
       "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
       "review": "If you have never watched Spirited Away you are either lying or missing out! It is one of the best!!!!!"
+    },
+    {
+      "name": "Wolf Children",
+      "review": "d cdjn",
+      "image": "https://d3tvwjfge35btc.cloudfront.net/Assets/82/884/L_p0025188482.jpg",
+      "id": 13
     }
   ],
   "videogames": [
@@ -111,6 +123,12 @@
       "name": "Fairy Tail",
       "image": "https://m.media-amazon.com/images/I/71jfDHt9GPL._SL1000_.jpg",
       "review": "There’s a satisfying amount of characters to bring into your stable, a unique battle system, catchy music, and side missions galore."
+    },
+    {
+      "name": "Mobile Suit Gundam Extreme Vs. Maxiboost ON",
+      "review": "ebdhbrf",
+      "image": "https://images.pushsquare.com/23d8b0876aa09/mobile-suit-gundam-extreme-vs-maxiboost-on-cover.cover_large.jpg",
+      "id": 19
     }
   ]
 }

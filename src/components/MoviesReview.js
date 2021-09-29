@@ -1,8 +1,8 @@
 
-import WriteReview from "./WriteReview";
+import WriteMoviesReview from "./WriteMoviesReview";
 import React, { useState, useEffect } from "react";
 
-// The usestate hook is used here to 
+
 function MoviesReview(){
     
     let [movies, setMovies] = useState([]);
@@ -30,7 +30,7 @@ function MoviesReview(){
                 {movies.map((movie) => ( <option  value={movie.id} key= {movie.id}> {movie.name}  </option>))} 
             </select>
             
-            <WriteReview movies = {movies} setMovies = {setMovies} parentToChild={movies.find(m => m.id === parseInt (selectedMovie) ) }/>
+            <WriteMoviesReview movies = {movies} setMovies = {setMovies} parentToChild={movies.find(m => m.id === parseInt (selectedMovie) ) }/>
         </div>
         );
 }

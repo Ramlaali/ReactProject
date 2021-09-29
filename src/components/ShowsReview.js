@@ -1,5 +1,5 @@
 
-import WriteReview from "./WriteReview";
+import WriteShowsReview from "./WriteShowsReview";
 import React, { useState, useEffect } from "react";
 
 
@@ -30,7 +30,7 @@ function ShowsReview(){
                 {shows.map((show) => ( <option  value={show.id} key= {show.id}> {show.name}  </option>))} 
             </select>
             
-            <WriteReview shows = {shows} setShows = {setShows} parentToChild={shows.find(s => s.id === parseInt (selectedShows) ) }/>
+            <WriteShowsReview shows = {shows} setShows = {setShows} parentToChild={shows.find(s => s.id === parseInt (selectedShows) ) }/>
         </div>
         );
 }
