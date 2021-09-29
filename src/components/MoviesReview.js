@@ -2,7 +2,7 @@
 import WriteReview from "./WriteReview";
 import React, { useState, useEffect } from "react";
 
-
+// The usestate hook is used here to 
 function MoviesReview(){
     
     let [movies, setMovies] = useState([]);

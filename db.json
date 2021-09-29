@@ -35,60 +35,6 @@
       "name": "Demon Slayer",
       "image": "https://i1.sndcdn.com/artworks-000640100413-69mq2s-t500x500.jpg",
       "review": "A determined brother that would do anything to protect his sister, misunderstood demons and a whole lotta slaying. If you love animes with a lot more tradtional sword fighting this is the one for you. "
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "nice",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 7
-    },
-    {
-      "name": "Hunter X Hunter: Phantom Rouge",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg",
-      "id": 8
-    },
-    {
-      "name": "Spirited Away",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-      "id": 9
-    },
-    {
-      "name": "Spirited Away",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-      "id": 10
-    },
-    {
-      "name": "My Hero Academia",
-      "review": "yeah",
-      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
-      "id": 11
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "njnn",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 12
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "njnn",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 13
-    },
-    {
-      "name": "My Hero Academia",
-      "review": "ssdd",
-      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
-      "id": 14
-    },
-    {
-      "name": "Jujutsu Kaisen",
-      "review": "yeah",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg",
-      "id": 15
     }
   ],
   "movies": [
@@ -127,66 +73,6 @@
       "name": "Spirited Away",
       "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
       "review": "If you have never watched Spirited Away you are either lying or missing out! It is one of the best!!!!!"
-    },
-    {
-      "name": "Hunter X Hunter: Phantom Rouge",
-      "review": "cool",
-      "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg",
-      "id": 13
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "nice",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 14
-    },
-    {
-      "name": "Hunter X Hunter: Phantom Rouge",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg",
-      "id": 15
-    },
-    {
-      "name": "Spirited Away",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-      "id": 16
-    },
-    {
-      "name": "Spirited Away",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-      "id": 17
-    },
-    {
-      "name": "My Hero Academia",
-      "review": "yeah",
-      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
-      "id": 18
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "njnn",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 19
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "njnn",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 20
-    },
-    {
-      "name": "My Hero Academia",
-      "review": "ssdd",
-      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
-      "id": 21
-    },
-    {
-      "name": "Jujutsu Kaisen",
-      "review": "yeah",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg",
-      "id": 22
     }
   ],
   "videogames": [
@@ -225,54 +111,6 @@
       "name": "Fairy Tail",
       "image": "https://m.media-amazon.com/images/I/71jfDHt9GPL._SL1000_.jpg",
       "review": "There’s a satisfying amount of characters to bring into your stable, a unique battle system, catchy music, and side missions galore."
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "nice",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 19
-    },
-    {
-      "name": "Hunter X Hunter: Phantom Rouge",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_.jpg",
-      "id": 20
-    },
-    {
-      "name": "Spirited Away",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-      "id": 21
-    },
-    {
-      "name": "Spirited Away",
-      "review": "ndjfnjf",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-      "id": 22
-    },
-    {
-      "name": "My Hero Academia",
-      "review": "yeah",
-      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
-      "id": 23
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "njnn",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 24
-    },
-    {
-      "name": "Haikyuu!!",
-      "review": "njnn",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg",
-      "id": 25
-    },
-    {
-      "name": "My Hero Academia",
-      "review": "ssdd",
-      "image": "https://dailyanimeart.files.wordpress.com/2016/04/my-hero-academia-poster.jpg",
-      "id": 26
     }
   ]
 }

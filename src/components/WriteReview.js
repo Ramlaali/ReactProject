@@ -20,24 +20,31 @@ function WriteReview({parentToChild, movies, setMovies, shows, setShows, videoga
               "Content-Type": "application/json",
             },
             body: JSON.stringify({'name': parentToChild?.name, 'review':input, "image": parentToChild?.image})
-        }
+        };
 
+        // fetch("http://localhost:4000/${type}", requestOption)
+        // .then((data) => data.json())
+        
+        // .then((json) => {
+        //     if (type === "movie") {
+        //         setMovies([...movies, movie])});
+        
         fetch("http://localhost:4000/movies", requestOption)
           .then((movies) => movies.json())
           
-          .then ((movie) => {setMovies([...movies, movie])});
+          .then((movie) => {setMovies([...movies, movie])});
           
 
         fetch("http://localhost:4000/shows", requestOption)
           .then((shows) => shows.json())
           
-          .then ((show) => {setShows([...shows, show])});
+          .then((show) => {setShows([...shows, show])});
 
 
         fetch("http://localhost:4000/videogames", requestOption)
           .then((videogames) => videogames.json())
           
-          .then ((game) => {setVideoGames([...videogames, game])});
+          .then((game) => {setVideoGames([...videogames, game])});
         
 
         document.getElementById("review-form").reset();
