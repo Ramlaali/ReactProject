@@ -1,5 +1,5 @@
 
-import WriteMoviesReview from "./WriteMoviesReview";
+import WriteMoviesReview from "./WriteReviews/WriteMoviesReview";
 import React, { useState, useEffect } from "react";
 
 
