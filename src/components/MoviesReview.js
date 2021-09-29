@@ -14,14 +14,13 @@ function MoviesReview(){
         .then((data) => {
             setMovies(data)
         });
-
-    }, []);   // use an empty dependencies array, so we only run the fetch request ONCE
+    }, []);   
 
     let handleMovieChange = (e) => {
         setSelectedMovie(e.target.value)
-        console.log(e.target.value);
+        ;
     }
-console.log(movies)
+
     return (
         <div>
             <h1>Movie Review Page</h1>

@@ -1,52 +1,43 @@
 import React, { useState } from "react";
 
-//import db from "../db.json";
 
-function WriteReview({parentToChild, movies, setMovies}) {
+function WriteReview({parentToChild, movies, setMovies, shows, setShows, videogames, setVideoGames}) {
     let [input, setInput] = useState('');
     let [submittedReview, setSubmittedReview] = useState('');
     
-
     
     function handleReview(event){
-        
-        
        setInput(event.target.value)
     };
 
     function handleSubmit(event){ 
 
-
         event.preventDefault(); 
 
-        fetch("http://localhost:4000/movies", {
+        const requestOption = {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
-            body: JSON.stringify({'name': parentToChild?.name, 'review':input, "image": parentToChild?.image}),
-          })
+            body: JSON.stringify({'name': parentToChild?.name, 'review':input, "image": parentToChild?.image})
+        }
+
+        fetch("http://localhost:4000/movies", requestOption)
           .then((movies) => movies.json())
           
-          .then ((movie) => {setMovies([...movies, movie])} );
+          .then ((movie) => {setMovies([...movies, movie])});
+          
 
-        // if(parentToChild.id > 1 && parentToChild.id < 6) {
+        fetch("http://localhost:4000/shows", requestOption)
+          .then((shows) => shows.json())
+          
+          .then ((show) => {setShows([...shows, show])});
 
-        //     let newShow = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':input}
-        // db.shows.push(newShow)
-        // }
 
-        // if(parentToChild.id > 7 && parentToChild.id < 12) {
-
-        //     let newMovie = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':input}
-        // movies.push( newMovie)
-        // }
-
-        // if(parentToChild.id > 13 && parentToChild.id < 18) {
-
-        //     let newVG = {'id': Math.floor(Math.random() * (100 - 19 + 1 )) + 19, 'name': parentToChild?.name, 'review':input}
-        // db.videogames.push( newVG)
-        // }
+        fetch("http://localhost:4000/videogames", requestOption)
+          .then((videogames) => videogames.json())
+          
+          .then ((game) => {setVideoGames([...videogames, game])});
         
 
         document.getElementById("review-form").reset();

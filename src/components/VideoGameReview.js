@@ -1,28 +1,38 @@
-// import WriteReview from "./WriteReview";
-// import React, { useState } from "react";
+
+import WriteReview from "./WriteReview";
+import React, { useState, useEffect } from "react";
 
 
-// function VideoGameReview(){
+function VideoGameReview(){
     
-//     let [videogame, setVGID] = useState("");
+    let [videogames, setVideoGames] = useState([]);
+    let [selectedVG, setSelectedVG] = useState("");
 
-//     let handleVGChange = (e) => {
-//         setVGID(e.target.value)
-//         console.log(e.target.value);
-//     }
+    useEffect(() => {
+        fetch ("http://localhost:4000/videogames")
+        .then ((response) => response.json())
+        .then((data) => {
+            setVideoGames(data)
+        });
+    }, []);   
 
-//     return (
-//         <div>
-//             <h1>Video Game Review Page</h1>
+    let handleVGChange = (e) => {
+        setSelectedVG(e.target.value)
+        ;
+    }
 
-//             <select onChange= {handleVGChange} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
-//                 <option value="select videgame" > Select a Video Game  </option>
-//                 {db.videogames.map((videogame) => ( <option value={videogame.id} key= {videogame.id}> {videogame.name} </option>))} 
-//             </select>
-//             <WriteReview parentToChild={db.videogames.find(v => v.id === parseInt (videogame) ) }/>
-//         </div>
-//         );
-// }
+    return (
+        <div>
+            <h1>VideoGame Review Page</h1>
 
+            <select onChange= {handleVGChange} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                <option value="select game" > Select a VideoGame  </option>
+                {videogames.map((game) => ( <option  value={game.id} key= {game.id}> {game.name}  </option>))} 
+            </select>
+            
+            <WriteReview videogames = {videogames} setVideoGames = {setVideoGames} parentToChild={videogames.find(vg => vg.id === parseInt (selectedVG) ) }/>
+        </div>
+        );
+}
 
-// export default VideoGameReview;
+export default VideoGameReview;

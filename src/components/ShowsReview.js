@@ -1,28 +1,38 @@
-// import WriteReview from "./WriteReview";
-// import React, { useState } from "react";
+
+import WriteReview from "./WriteReview";
+import React, { useState, useEffect } from "react";
 
 
-// function ShowsReview(){
+function ShowsReview(){
     
-//     let [show, setShowID] = useState("");
+    let [shows, setShows] = useState([]);
+    let [selectedShows, setSelectedShows] = useState("");
 
-//     let handleShowChange = (e) => {
-//         setShowID(e.target.value)
-//         console.log(e.target.value);
-//     }
+    useEffect(() => {
+        fetch ("http://localhost:4000/shows")
+        .then ((response) => response.json())
+        .then((data) => {
+            setShows(data)
+        });
+    }, []);   
 
-//     return (
-//         <div>
-//             <h1>Shows Review Page</h1>
+    let handleShowChange = (e) => {
+        setSelectedShows(e.target.value)
+        ;
+    }
 
-//             <select onChange= {handleShowChange} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
-//                 <option value= "select show" > Select a Show  </option>
-//                 {db.shows.map((show) => ( <option value={show.id} key= {show.id}> {show.name} </option>))} 
-//             </select>
-//             <WriteReview parentToChild={db.shows.find(m => m.id === parseInt (show) ) }/>
-//         </div>
-//         );
-// }
+    return (
+        <div>
+            <h1>Show Review Page</h1>
 
+            <select onChange= {handleShowChange} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                <option value="select show" > Select a Show </option>
+                {shows.map((show) => ( <option  value={show.id} key= {show.id}> {show.name}  </option>))} 
+            </select>
+            
+            <WriteReview shows = {shows} setShows = {setShows} parentToChild={shows.find(s => s.id === parseInt (selectedShows) ) }/>
+        </div>
+        );
+}
 
-// export default ShowsReview;
+export default ShowsReview;
